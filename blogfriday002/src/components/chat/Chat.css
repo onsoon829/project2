@@ -1,0 +1,47 @@
+/* styles.css */
+.chat {
+  background-color: beige;
+  display: flex;
+  width: 700px;
+  height: 1000px;
+}
+
+.chat_header {
+  background-color: salmon;
+  width: 600px;
+  height: 100px;
+}
+
+.chat_body {
+  background-color: azure;
+  width: 700px;
+  height: 800px;
+}
+
+.message {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 10px;
+  max-width: 40%;
+  list-style-type: none;
+  word-wrap: break-word; /* 긴 단어가 다음 줄로 넘어가게 함 */
+  overflow-wrap: break-word; /* 올바르게 단어를 줄바꿈함 */
+  font-size: 16px;
+}
+
+.my-message {
+  background-color: rgb(192, 192, 192);
+  margin-left: auto;
+  text-align: right;
+  list-style-type: none;
+  color: black;
+}
+
+.other-message {
+  background-color: white;
+  margin-right: auto;
+  text-align: left;
+  list-style-type: none;
+  border: 1px solid rgb(192, 192, 192);
+  color: black;
+}

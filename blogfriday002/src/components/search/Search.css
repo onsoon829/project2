@@ -1,0 +1,22 @@
+.product_map {
+  background-color: blue;
+}
+
+.map_box {
+  background-color: azure;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+
+.search_img {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.search_text {
+  width: 300px;
+  height: 300px;
+}
